@@ -1,11 +1,5 @@
-export function sum(a: number, b: number): number{
-    return a + b;
-}
+import {app} from "./app";
 
-export function sub(a:number, b:number): number{
-    return a - b;
-}
-
-export function divis(a:number, b: number): number{
-    return a / b
-}
+app.listen(3333, ()=>{
+    console.log(`server is running in port 3333`)
+})

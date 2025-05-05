@@ -1,4 +1,4 @@
-import {sum, sub, divis} from "./server";
+import {sum, sub, divis} from "./sum";
 
 describe("testes", ()=>{
     let sumResult: number
